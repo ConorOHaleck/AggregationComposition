@@ -13,5 +13,7 @@ namespace AggregationComposition
         public string FullName { get; set; }
 
         public DateTime? DateOfBirth { get; set; }
+
+        public List<Course> Schedule { get; set; }
     }
 }
